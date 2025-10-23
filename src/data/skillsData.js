@@ -1,16 +1,20 @@
- export const skillsData = [
+export const skillsData = [
     'HTML',
-    'Fastify',
-    'Blender',
-    'Figma',
-    'Javascript',
     'CSS',
+    'Javascript',
     'React',
-    'Django',
+    'MaterialUI',
+    'Redux',
+    'React Query',
+    'Node JS',
+    'RESTful APIs',
+    'Git',
+    'ViteJS',
+    'Tailwind',
+    // 'Bootstrap',
+    'Jira',
+    'Sentry',
 ]
-
-// Choose your skills from below. Make sure it's in the same format and spelled correctly.
-// Couldn't find the required skills? Raise an issue on github at https://github.com/hhhrrrttt222111/developer-portfolio/issues/new
 
 
 // AVAILABLE SKILLS

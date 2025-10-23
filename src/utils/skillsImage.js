@@ -74,6 +74,10 @@ import unity from '../assets/svg/skills/unity.svg'
 import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
 
 import canva from '../assets/svg/skills/canva.svg'
+import jira from '../assets/svg/skills/jira.svg'
+import redux from '../assets/svg/skills/redux.svg'
+import nodejs from '../assets/svg/skills/nodejs.svg'
+import restapi from '../assets/svg/skills/restapi.svg'
 
 
 export const skillsImage = (skill) => {
@@ -227,6 +231,14 @@ export const skillsImage = (skill) => {
             return wolframalpha;
         case 'canva':
             return canva;
+        case 'jira':
+            return jira;
+        case 'redux':
+            return redux;
+        case 'node js':
+            return nodejs;
+        case 'restful apis':
+            return restapi;
         default:
             break;
     }

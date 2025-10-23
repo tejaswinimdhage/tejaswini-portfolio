@@ -1,9 +1,9 @@
 import resume from '../assets/pdf/resume.pdf'
 
 export const headerData = {
-    name: 'Jane Doe',
-    title: "Web Developer",
-    desciption:"There wasn't a bird in the sky, but that was not what caught her attention. It was the clouds. The deep green that isn't the color of clouds, but came with these. She knew what was coming and she hoped she was prepared. ",
+    name: 'Tejaswini Dhage',
+    title: 'Software Developer',
+    description: "I’m a passionate Software Developer with over ~4 years of experience building scalable, high-performance web applications using React.js, Material-UI, Redux, and React Query. I love creating clean, modular, and user-focused solutions that deliver measurable impact and great user experiences.",
     image: 'https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/landingImg.png',
     resumePdf: resume
 }
