@@ -1,5 +1,5 @@
 export const socialsData = {
-    github: 'https://github.com/', // Add your GitHub username here if available, e.g., 'https://github.com/tejaswinidhage'
+    github: 'https://github.com/tejaswinimdhage',
     facebook: '',
     linkedIn: 'https://www.linkedin.com/in/tejaswini-dhage',
     instagram: '',
