@@ -6,5 +6,5 @@ export default defineConfig({
     build: {
         outDir: 'build',
     },
-    base: '/tejaswini-portfolio/',
+    base: '/tejaswini-portfolio',
 });
