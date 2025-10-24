@@ -1,5 +1,5 @@
 .experience{
-    min-height: 100vh;
+    min-height: 85vh;
 }
 
 .experience-body {
@@ -33,7 +33,7 @@
     align-items:flex-start;
     justify-content: flex-start;
     width: 90%;
-    height: 140px;
+    height: 100%;
     padding: 1.5rem;
     border-radius: 20px;
     margin-bottom: 1.5rem;
@@ -104,7 +104,7 @@
 
 @media screen and (max-width: 992px) {
     .experience {
-        min-height: 100%;
+        /* min-height: 100%; */
     }
     .experience-image {
         display: none;
@@ -135,12 +135,12 @@
     .experience-card {
         padding: 1rem;
         margin-bottom: 1.5rem;
-        height: 130px;
+        /* height: 130px; */
     }
     .expcard-img {
         border-radius: 50%;
         width: 45px;
-        height: 45px;
+        /* height: 45px; */
     }
     
     .expcard-img > img {
@@ -158,6 +158,10 @@
     
     .experience-details > h5 {
         font-size: 1.05rem;
+        line-height: 126%;
+    }
+    .experience-details > p {
+        font-size: 0.8rem;
         line-height: 126%;
     }
 }

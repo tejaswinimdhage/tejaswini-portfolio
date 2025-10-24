@@ -1,6 +1,8 @@
 export const aboutData = {
     title: "Who I Am",
-    description1: "My name’s Tejaswini Dhage. I’m a software developer based in Nagpur, India.",
-    description2: "I have over ~4 years of experience building high-performance and scalable web applications using React.js, Material-UI, Redux, and React Query. Currently, I work at SimpleWorks Solutions Pvt. Ltd. as a Software Engineer, where I’ve led major UI revamps, optimized build performance by 50%+, and improved CRM platform scalability and user experience. I’m passionate about modular architecture, front-end performance, and crafting clean, user-focused interfaces. Outside of work, I enjoy learning new technologies, exploring AI and machine learning, and contributing to innovative projects that make an impact.",
+    description1: "I’m a Software Developer specializing in React.js and Node.js, passionate about building scalable, high-performance web applications with a focus on clean architecture and great UX.",
+    description2: "At Simple Works, I led a complete CRM redesign — modernizing the frontend, cutting bundle size by 50%+, and boosting system efficiency by ~30%. I modularized the frontend, migrated API state management from Redux to React Query, and upgraded our design system (MUI v4 → v6).",
+    description3: "Beyond coding, I drive quarterly planning, mentor engineers, and run PR reviews to maintain quality and speed.",
+    description4: "I’m now open to frontend or full-stack roles that emphasize performance, scalability, and product ownership.",
     image: 2
 }

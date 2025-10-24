@@ -5,15 +5,16 @@ export const skillsData = [
     'React',
     'MaterialUI',
     'Redux',
-    'React Query',
+    // 'React Query',
     'Node JS',
     'RESTful APIs',
     'Git',
     'ViteJS',
     'Tailwind',
+    'TypeScript',
     // 'Bootstrap',
     'Jira',
-    'Sentry',
+    // 'Sentry',
 ]
 
 

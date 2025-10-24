@@ -162,6 +162,7 @@ function Landing() {
                         <h6>{headerData.title}</h6>
                         <h1>{headerData.name}</h1>
                         <p>{headerData.description}</p>
+                        <p>{headerData.subtitle}</p>
 
                         <div className='lcr-buttonContainer'>
                             {headerData.resumePdf && (
@@ -183,7 +184,7 @@ function Landing() {
                                 duration={2000}
                             >
                                 <Button className={classes.contactBtn}>
-                                    Contact
+                                    Contact Me
                                 </Button>
                             </NavLink>
                         </div>

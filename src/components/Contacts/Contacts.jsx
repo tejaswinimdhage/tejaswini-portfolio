@@ -4,6 +4,7 @@ import CloseIcon from '@material-ui/icons/Close';
 import axios from 'axios';
 import isEmail from 'validator/lib/isEmail';
 import { makeStyles } from '@material-ui/core/styles';
+import emailjs from '@emailjs/browser';
 import {
     FaTwitter,
     FaLinkedinIn,
@@ -132,32 +133,38 @@ function Contacts() {
     const handleContactForm = (e) => {
         e.preventDefault();
 
-        if (name && email && message) {
-            if (isEmail(email)) {
-                const responseData = {
-                    name: name,
-                    email: email,
-                    message: message,
-                };
-
-                axios.post(contactsData.sheetAPI, responseData).then((res) => {
-                    console.log('success');
-                    setSuccess(true);
-                    setErrMsg('');
-
-                    setName('');
-                    setEmail('');
-                    setMessage('');
-                    setOpen(false);
-                });
-            } else {
-                setErrMsg('Invalid email');
-                setOpen(true);
-            }
-        } else {
-            setErrMsg('Enter all the fields');
+        if (!name || !email || !message) {
+            setErrMsg('Please enter all the fields');
             setOpen(true);
+            return;
         }
+
+        if (!isEmail(email)) {
+            setErrMsg('Invalid email');
+            setOpen(true);
+            return;
+        }
+
+        const templateParams = { name, email, message };
+
+        emailjs.send(
+            'service_92kptnd',
+            'template_u9luyhe',
+            templateParams,
+            'RU3LDfa1m3gR288ce'
+        )
+            .then(() => {
+                setSuccess(true);
+                setErrMsg('');
+                setName('');
+                setEmail('');
+                setMessage('');
+            })
+            .catch((err) => {
+                setErrMsg('Something went wrong. Try again!');
+                setOpen(true);
+                console.error(err);
+            });
     };
 
     return (

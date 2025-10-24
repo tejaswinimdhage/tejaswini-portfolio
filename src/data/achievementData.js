@@ -1,43 +1,29 @@
 export const achievementData = {
-    bio : "Putting quantified achievements on a resume is great, but I just don’t work with hard numbers. I have no data to support the quality of my work. If you have lots of relevant experience, the heading statement of your resume will be a summary.",
-    achievements : [
+    bio: "These are the milestones and certifications that showcase my growth, skills, and commitment to excellence in professional development, project delivery, and continuous learning.",
+    achievements: [
         {
-            id : 1,
-            title : 'Google Cloud certification',
-            details : 'Google Cloud certifications validate your expertise and showcase your ability to transform businesses with Google Cloud technology.',
-            date : 'Aug 20, 2019',
-            field : 'Automation',
-            image : 'https://images.unsplash.com/photo-1573141597928-403fcee0e056?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80'
+            id: 1,
+            title: 'McKinsey Forward Program',
+            details: 'Completed McKinsey.org’s Forward Program – an intensive learning journey focused on problem solving, communication, leadership, and digital transformation skills for future-ready professionals.',
+            date: 'October 2025',
+            field: 'Leadership',
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwpg3-eRC4lOOEfkRpBk-6WYVP0OKKO2eGbw&s"
         },
         {
-            id : 2,
-            title : 'AWS Certification',
-            details : 'Validate technical skills and cloud expertise to grow your career and business.',
-            date : 'Aug 20, 2019',
-            field : 'Automation',
-            image : 'https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
+            id: 2,
+            title: 'Award & Recognition',
+            details: 'Received the “Excellence Award” at Simple Works for outstanding contribution to CRM modernization and performance optimization for significantly improving performance and maintainability.',
+            date: 'December 2024',
+            field: 'Performance',
+            image: 'https://media.licdn.com/dms/image/v2/D4D22AQHCHB-Tdg5Wzw/feedshare-shrink_2048_1536/B4DZP4RHkUHUAo-/0/1735037169167?e=1762992000&v=beta&t=8tGvRi6yLVWAzJIlSO-tpz4im-Gz_NRQNaQuWmzgdPU'
         },
         {
-            id : 3,
-            title : 'Professional Data Engineer Certification',
-            details : 'Professional Data Engineers enable data-driven decision making by collecting, transforming, and publishing data.',
-            date : 'Aug 20, 2019',
-            field : 'Automation',
-            image : 'https://images.unsplash.com/photo-1489389944381-3471b5b30f04?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
-        }
-
+            id: 3,
+            title: 'React Certification',
+            details: 'Certified React Developer – mastered skills in advanced React concepts, component architecture, and performance optimization.',
+            date: 'May 2022',
+            field: 'Development',
+            image: 'https://miro.medium.com/v2/resize:fit:1100/format:webp/0*3UQWZZlavKpxF5Ve'
+        },
     ]
 }
-
-
-// Do not remove any fields.
-// Leave it blank instead as shown below.
-
-/*
-
-export const achievementData = {
-    bio : "",
-    achievements : []
-}
-
-*/
