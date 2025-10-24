@@ -130,7 +130,7 @@
     .education-card {
         padding: 1rem;
         margin-bottom: 1.5rem;
-        height: 130px;
+        height: 100%;
     }
     .educard-img {
         border-radius: 50%;
